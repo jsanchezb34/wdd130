@@ -32,7 +32,7 @@ p{
 aside{
     width: auto;
     margin: 1rem;
-    border: 1px solid rgba(red, green, blue, alpha); 
+    border: 1px solid solid #000; 
     padding: 1rem;
     background-color: #eee ;
     color:#333;
