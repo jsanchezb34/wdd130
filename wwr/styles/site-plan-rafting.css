@@ -12,8 +12,8 @@ body{
 --accent-color1: #A3B18A ;
 --accent-color2: #344E41;
 
---heading-font:"oswald", bold ;
---paragraph-font: "oswald", light;
+--heading-font:"bold", oswald;
+--paragraph-font: "light", oswald;
 
 --nav-background-color:var(--primary-color);
 --nav-link-color:var(--accent-color2);
@@ -28,7 +28,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:var(--heading-front);
+    font-family:var(--heading-font);
     color: var(--primary-color);
 }
 
