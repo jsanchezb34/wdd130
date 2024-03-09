@@ -15,20 +15,20 @@ body{
 --heading-font:"bold", oswald;
 --paragraph-font: "light", oswald;
 
---nav-background-color:var(--primary-color);
---nav-link-color:var(--accent-color2);
---nav-hover-link-color:var(--secondary-color);
---nav-hover-background-color:var(--accent-color1);
+--nav-background-color:#588157;
+--nav-link-color:#344E41;
+--nav-hover-link-color: #DAD7CD;
+--nav-hover-background-color:#A3B18A;
 }
 
 body{
-    font-family: var(--paragraph-front);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:var(--heading-font);
+    font-family:var(--heading-front);
     color: var(--primary-color);
 }
 
