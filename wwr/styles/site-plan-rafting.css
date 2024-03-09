@@ -12,8 +12,8 @@ body{
 --accent-color1: #A3B18A ;
 --accent-color2: #344E41;
 
---heading-front:"bold", oswald;
---paragraph-front: "light", oswald;
+--heading-font:"oswald", bold ;
+--paragraph-font: "oswald", light;
 
 --nav-background-color:var(--primary-color);
 --nav-link-color:var(--accent-color2);
