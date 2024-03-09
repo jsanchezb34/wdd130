@@ -9,8 +9,8 @@ body{
 :root {
 --primary-color:#588157 ;
 --secondary-color: #DAD7CD ;
---accent-color1: #A3B18A ;
---accent-color2: #344E41;
+--accent1-color: #A3B18A ;
+--accent2-color2: #344E41;
 
 --heading-font:oswald;
 --paragraph-font:oswald;
