@@ -44,7 +44,14 @@
     nav a:hover {
         color: var(--nav-background-color);
     }
-    
+
+    div h1 {
+        position: relative;
+        top: 5px;
+        left: 250px;
+    }
+
+        
     .hero {
         position: relative;
     }
@@ -53,6 +60,7 @@
         display: block;
         width: 100%;
         height: auto;
+        float: right;
     }
 
     .hero h1 {
@@ -63,7 +71,6 @@
     }
     .hero-article p {
         position: absolute;
-        float: right;
+        float: left;
     }
     
-
