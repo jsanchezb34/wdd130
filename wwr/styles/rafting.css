@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --primary-color:#588157 ;
+    --secondary-color: #DAD7CD ;
+    --accent1-color: #A3B18A ;
+    --accent2-color: #344E41;
+    
+    --heading-font: 'oswald';
+    --paragraph-font: 'oswald';
+    
+    --nav-background-color:#588157;
+    --nav-link-color:#344E41;
+    --nav-hover-link-color: #DAD7CD;
+    --nav-hover-background-color:#A3B18A;
+    }
+
+    body{
+        font-family: var(--paragraph-font);
+        max-width: 960px;
+        
+    }
+    
+    h1 {
+        font-family:var(--heading-font);
+        color: white;
+       
+    }
+    h2 {
+        font-family:var(--heading-font);
+        color: var(--primary-color);
+    }
+
+    header {
+        padding: 20px;
+        text-align: center;
+        
+    }
+    nav a {
+        color:var(--accent2-color)
+        
+        }
+
+    nav a:hover {
+        color: var(--nav-background-color);
+    }
+    
+    .hero {
+        position: relative;
+    }
+
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .hero h1 {
+        position: absolute;
+    }
+    .hero-article img {
+        position: absolute;
+    }
+    .hero-article p {
+        position: absolute;
+        float: right;
+    }
+    
+
