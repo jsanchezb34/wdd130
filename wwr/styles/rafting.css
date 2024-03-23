@@ -114,7 +114,6 @@
     color: var(--secondary-color);
     padding: 1rem;
     grid-row: 2;
-    grid-column: 1 2;
    }
  /*-----adventure section------*/
     .adventure{
