@@ -61,12 +61,13 @@ aside {
     position: relative;
 }
 
-
-
-
 aside img {
     width: 15rem;
     height: auto;
+}
+
+aside  h2 {
+    position: absolute;
 }
 
 footer{
