@@ -56,7 +56,7 @@
 
 /*----------raftin site content-----*/
 
-    /*.hero {
+    .hero {
         position: relative;
     } 
     .hero h1 {
@@ -72,7 +72,7 @@
     .content {
         position: absolute;
     }
-    */
+    
 /*-----------History---------------*/
    .history {
     background-color: var(--nav-background-color);
@@ -127,7 +127,7 @@
     
 
 /*------- footer-------------------*/
-    /*footer {
+    footer {
         background-color: #A3B18A;
         padding: 5px;
         display: flex;
@@ -140,11 +140,8 @@
         display: flex;
         width: 40px;
         padding: 1px;
-    }*/
-    
-    footer {
-        background-color: #A3B18A;
-        padding: 5px
     }
+    
+
     
     
