@@ -61,10 +61,12 @@
     .hero {
         position: relative; 
     } 
+    
     .hero h1 {
         position: absolute;
         top: 5px;
-        padding-left: 40%;
+        display: flex;
+        justify-content: center;
         background-color:rgba(0, 0, 0, 0.7) ;
         width: 100% ;
     }
