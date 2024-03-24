@@ -25,6 +25,8 @@
     h1 {
         font-family:var(--heading-font);
         color: white;
+        font-size: 2rem;
+
        
     }
     h2 {
@@ -32,7 +34,7 @@
         color: var(--primary-color);
     }
 /*---------header------------*/   
-    
+
     header {
         padding:0px;
         display: grid;
@@ -57,26 +59,48 @@
 /*----------raftin site content-----*/
 
     .hero {
-        position: relative;   
+        position: relative; 
     } 
     .hero h1 {
         position: absolute;
         top: 5px;
         padding-left: 40%;
-        z-index: 1;
+        background-color:rgba(0, 0, 0, 0.7) ;
+        width: 100% ;
     }
-       
+
+    .content {
+        position: absolute;
+        top: 100px;
+        background-color:rgba(0, 0, 0, 0.7) ;
+        width: 100% ;
+        height: 300px;
+    }
+    .content p {
+        position: absolute;
+        color:var(--secondary-color);
+        width: 250px;
+        margin-left: 200px;
+        margin-top: 120px;
+    }
+    .content img {
+        position: absolute;
+        margin-left: 500px;
+        margin-top: 100px;
+        height: 150px;
+    }
+
+     /*  
     .background {
         position: absolute;
         width: 100%;
         max-width:960px;
-        max-height: 300px;
+        max-height: auto;
     }
     .background img {
         display: block;
         width: 100%;
         height: auto;
-        max-height:350px;
     }
     .content {
         position: relative;
@@ -88,20 +112,20 @@
     }
 
     .content img {
-        height: 200px;
+        height: 120px;
         width:auto;
         margin-top: 10%;
         margin-left: 100px;
 
     }
-    .content p {
-        color:var(--secondary-color);
-        margin-top:20%;
+    
         
     }
+    */
 
 /*-----------History---------------*/
    .history {
+    position: relative;
     background-color: var(--nav-link-color);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
