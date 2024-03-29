@@ -1,0 +1,39 @@
+h1 {
+    color: blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color :#eef3f6 ;
+    width: auto;
+    max-width: 520px;
+    height: auto;
+    border-radius: 10px;
+}
+
+p {
+    background-color: gray;
+    width: 300px;
+    height: 40px;
+    color: antiquewhite;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    height: 39px;
+}
+
