@@ -25,6 +25,7 @@
     h1 {
         font-family:var(--heading-font);
         color: white;
+        border-bottom: 10px;
         font-size: 2rem;
 
        
@@ -61,7 +62,7 @@
     .hero {
         position: relative; 
     } 
-    
+
     .hero h1 {
         position: absolute;
         top: 5px;
@@ -69,6 +70,9 @@
         justify-content: center;
         background-color:rgba(0, 0, 0, 0.7) ;
         width: 100% ;
+    }
+    .background img {
+        width: 100%;
     }
 
     .content {
