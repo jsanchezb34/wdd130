@@ -56,29 +56,30 @@
             </div>
         </section>
         <div class="form">
-        <form>
-            <label for="question1">What is your name?</label><br>
-            <input type="text" id="question1" name="name"><br><br>
-
-            <label for="question2">What is your E-mail address?</label><br>
-            <input type="text" id="question2" name="address"><br>
+            <form>
+                <label for="name">What is your name?</label><br>
+                <input type="text" id="name" name="name"><br><br>
             
-            <label for="question3">WHAT CAN WE TELL YOU ABOUT?</label><br><br>
-            <input type="radio" id="question3" name="question3" value="option1">
-            <label for="option1">General inqury</label><br>
-            <input type="radio" id="option2" name="q3" value="option2">
-            <label for="option2">reservation Questions</label><br>
-            <input type="radio" id="option3" name="q3" value="option3">
-            <label for="option3">Website Suggestions</label><br><br>
-
-            <label for="question4">WRITE A MESSAGE</label><br>
-            <textarea id="question4" name="question4" rows="4" cols="50"></textarea><br><br>
-
-            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-            <label for="subscribe">Please subscribe me to the monthly newsletter</label><br><br>
+                <label for="email">What is your E-mail address?</label><br>
+                <input type="text" id="email" name="email"><br>
+            
+                <label for="topic">WHAT CAN WE TELL YOU ABOUT?</label><br><br>
+                <input type="radio" id="general" name="topic" value="General">
+                <label for="general">General inquiry</label><br>
+                <input type="radio" id="reservation" name="topic" value="Reservation">
+                <label for="reservation">Reservation Questions</label><br>
+                <input type="radio" id="suggestions" name="topic" value="Suggestions">
+                <label for="suggestions">Website Suggestions</label><br><br>
+            
+                <label for="message">WRITE A MESSAGE</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label><br><br>
+                
+                <button type="submit" id="submit-button"> SUBMIT!</button>
+            </form>
              
-            <button type="submit" id="submit-button"> SUBMIT!</button>
-      </form> 
      </div>
     </main>
     <footer>
