@@ -270,7 +270,6 @@ footer {
 
      /*-----contact us page employees section------*/
      .employees {
-        background-color:#DAD7CD;
         padding-bottom: 30px;
         display: grid;
         grid-template-rows: auto 1fr;
@@ -281,6 +280,8 @@ footer {
     .employees h2 {
         grid-row: 1;
         grid-column: 1/-1;
+        background-color: #344E41;
+        color: white;
     }
 
     .employees img {
