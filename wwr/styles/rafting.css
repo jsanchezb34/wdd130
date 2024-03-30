@@ -239,6 +239,27 @@ footer {
         width: 100%;
 
     }
+    /*------map and address-------*/
+
+    .map {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border: #344E41;
+    }
+    .address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        background-color:rgba(0, 0, 0, 0.7) ;
+    }
+    .address h2 {
+        font-size: 20px;
+        color: white;
+    }
+    
 
      /*-----contact us page employees section------*/
      .employees {
@@ -270,6 +291,7 @@ footer {
     }
     
     /*-------form styling---------*/
+
     form {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -282,9 +304,7 @@ footer {
         max-width: 520px;
         height: auto;
         border-radius: 10px;
-    }
-
-
+    } 
 
     button {
         color: white;
@@ -300,11 +320,7 @@ footer {
         height: 39px;
     }
 
-    .map {
-        display: flex;
-        justify-content: center;
-        padding: 20px;
-    }
+
     
 
     
