@@ -191,6 +191,8 @@
 .trip {
     position: relative;
     padding-top: 10px;
+    width: 100%;
+    height: auto;
 }
 .trip img {
     position: absolute;
