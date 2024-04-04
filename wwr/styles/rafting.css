@@ -189,7 +189,7 @@
 }
 .trip {
     position: relative;
-    margin: 5px;
+    padding-top: 10px;
 }
 .trip img {
     position: absolute;
@@ -221,7 +221,7 @@
 }
 
 .trip p {
-    position: absolute;
+    position: relative;
     float: right;
     top:340px;
     width: 400px;
