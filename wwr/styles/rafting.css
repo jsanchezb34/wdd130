@@ -21,6 +21,7 @@
         max-width: 960px;
         
     }
+
     
     h1 {
         font-family:var(--heading-font);
@@ -35,6 +36,20 @@
         color: var(--primary-color);
         display: flex;
         justify-content: center;
+    }
+
+    button {
+        color: white;
+        font-weight: bold;
+        background-color: var(--accent2-color);
+        border: 0;
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        height: 39px;
     }
 /*---------header------------*/   
 
@@ -115,7 +130,7 @@
     }
 
     /*--------index styles--------*/
-    /*.homepage {
+    .homepage {
         position: relative; 
     } 
 
@@ -124,19 +139,21 @@
         top: 0px;
         display: flex;
         justify-content: center;
+        align-items: end;
         background-color:rgba(0, 0, 0, 0.7) ;
         width: 100% ;
-        font-size: 50px;
+        font-size: 100px;
     }
 
     .background img {
         width: 100%;
     }
-*/
+
 
     /*------trips link---------*/
-    .tripslink a {
-        color:var(--accent2-color);
+
+    .tripslink {
+
     }
 
 
@@ -172,20 +189,29 @@
 .trips {
     position: relative;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1/2fr 3fr 3fr 3fr;
+}
+
+
+.trips h2 {
+    font-size: 60px;
+    color: var(--secondary-color);
+    background-color:var(--accent2-color);
+    border-radius: 30px;
+    padding: 20px;
 }
 
 .trip img {
-    width: 100%;
+    width: 700px;
+    margin-left: 100px;
     height: auto;
     grid-column: 2;
     grid-row: 2;
 }
 
-.trip h2 {
-    z-index: 1000;
+.trip h3 {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     font-size: 40px;
     color: var(--accent2-color);
     grid-row: 1;
@@ -194,12 +220,28 @@
 }
 
 .trip p {
+    display: flex;
+    justify-content: center;
     background-color:rgba(0, 0, 0, 0.7) ;
     color: var(--secondary-color);
     padding: 1rem;
     position: relative;
     margin-top: 0;
+}
 
+/*------ UPCOMING TRIPS--------*/
+.upcomingtrips {
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.upcomingtrips h2 {
+    color: var(--accent2-color);
 }
 
  /*-----adventure section------*/
@@ -366,19 +408,7 @@ footer {
         border-radius: 10px;
     } 
 
-    button {
-        color: white;
-        font-weight: bold;
-        background-color: var(--accent2-color);
-        border: 0;
-        border-radius: 10px;
-        width: 100%;
-        height: fit-content;
-        display: flex;
-        justify-content: center;
-        padding-top: 10px;
-        height: 39px;
-    }
+
 
 
     
