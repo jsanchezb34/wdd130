@@ -22,15 +22,12 @@
         margin: auto;
         
     }
-
-    
     h1 {
         font-family:var(--heading-font);
         color: white;
         border-bottom: 10px;
         font-size: 2rem;
-
-       
+ 
     }
     h2 {
         font-family:var(--heading-font);
